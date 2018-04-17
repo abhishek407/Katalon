@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Transaction Adaptor Portlet :
+ 
+All the validation error messages are displayed
+ 
+Steps:
+1.From Home -> Custom Objects -> Transaction Adaptor -> All the Validation error messages are displayed.
+ 
+Expected Result:
+Validation error messages are displayed.
+
+</description>
+   <name>ValidationTestCases</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b36a5fe2-3618-4478-a734-51dbb3bdce50</testCaseGuid>
+</TestCaseEntity>

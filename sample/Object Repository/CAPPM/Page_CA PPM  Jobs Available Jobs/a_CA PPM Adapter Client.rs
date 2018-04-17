@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_CA PPM Adapter Client</name>
+   <tag></tag>
+   <elementGuidId>5d0a7aa8-55f5-4ccf-86a5-b52c38105dc8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[count(. | //*[@href = '#action:nmc.jobPropertiesNew&amp;job_definition_id=5000260']) = count(//*[@href = '#action:nmc.jobPropertiesNew&amp;job_definition_id=5000260'])][count(. | //*[@title = 'CA PPM Adapter Client']) = count(//*[@title = 'CA PPM Adapter Client'])][count(. | //*[text() = 'CA PPM Adapter Client']) = count(//*[text() = 'CA PPM Adapter Client'])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@title=&quot;CA PPM Adapter Client&quot; and text() = 'CA PPM Adapter Client']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns:urlencoder</name>
+      <type>Main</type>
+      <value>java:java.net.URLEncoder</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>none</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#action:nmc.jobPropertiesNew&amp;job_definition_id=5000260</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>CA PPM Adapter Client</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>CA PPM Adapter Client</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;d14798e421_4&quot;)/a[@class=&quot;none&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

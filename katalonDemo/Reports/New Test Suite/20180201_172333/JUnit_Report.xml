@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="23" tests="0" failures="1" errors="0">
+   <testsuite name="New Test Suite" tests="0" failures="1" errors="0" time="23" timestamp="2018-02-01 17:23:35" hostname="Abhishek.B - ETHYDLP082.excershyd.com" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Abhishek.B\\Katalon Studio\\katalonDemo\\Reports\\New Test Suite\\20180201_172333"/>
+         <property name="logFiles" value="C:\\Users\\Abhishek.B\\Katalon Studio\\katalonDemo\\Reports\\New Test Suite\\20180201_172333\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Abhishek.B - ETHYDLP082.excershyd.com"/>
+         <property name="hostAddress" value="192.168.14.76"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+      </properties>
+      <testcase name="Test Cases/New Test Case" classname="Test Cases/New Test Case" status="FAILED">
+         <failure type="FAILED" message="Unable to open browser with url: 'http://ppmdemo.letznav.com/' (Root cause: org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ETHYDLP082', ip: '192.168.14.76', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CRemoteWebDriver)"/>
+         <system-out><![CDATA[2018-02-01 17:23:36 - [TEST_CASE][FAILED] - Test Cases/New Test Case: Test Cases/New Test Case FAILED because (of) Unable to open browser with url: 'http://ppmdemo.letznav.com/' (Root cause: org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ETHYDLP082', ip: '192.168.14.76', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CRemoteWebDriver)
+
+2018-02-01 17:23:36 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: 'http://ppmdemo.letznav.com/' (Root cause: org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ETHYDLP082', ip: '192.168.14.76', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CRemoteWebDriver)
+
+2018-02-01 17:23:58 - [MESSAGE][FAILED] - Unable to open browser with url: 'http://ppmdemo.letznav.com/' (Root cause: org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ETHYDLP082', ip: '192.168.14.76', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CRemoteWebDriver)]]></system-out>
+         <system-err><![CDATA[2018-02-01 17:23:36 - [TEST_CASE][FAILED] - Test Cases/New Test Case: Test Cases/New Test Case FAILED because (of) Unable to open browser with url: 'http://ppmdemo.letznav.com/' (Root cause: org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ETHYDLP082', ip: '192.168.14.76', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CRemoteWebDriver)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-02-01 17:23:35 - [TEST_SUITE][FAILED] - New Test Suite: Test Cases/New Test Case FAILED because (of) Unable to open browser with url: 'http://ppmdemo.letznav.com/' (Root cause: org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ETHYDLP082', ip: '192.168.14.76', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CRemoteWebDriver)]]></system-out>
+      <system-err><![CDATA[2018-02-01 17:23:35 - [TEST_SUITE][FAILED] - New Test Suite: Test Cases/New Test Case FAILED because (of) Unable to open browser with url: 'http://ppmdemo.letznav.com/' (Root cause: org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ETHYDLP082', ip: '192.168.14.76', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CRemoteWebDriver)]]></system-err>
+   </testsuite>
+</testsuites>

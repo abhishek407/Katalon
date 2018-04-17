@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,Chrome 65.0.3325.146,,2018-03-12 12:47:02,2018-03-12 12:47:32,29.959s,FAILED
+,,,,,,
+Test Cases/Login,Chrome 65.0.3325.146,,2018-03-12 12:47:02,2018-03-12 12:47:18,15.438s,FAILED
+Statement - log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 65.0.3325.146,,2018-03-12 12:47:03,2018-03-12 12:47:03,0.001s,PASSED
+openBrowser,Chrome 65.0.3325.146,,2018-03-12 12:47:03,2018-03-12 12:47:08,4.462s,PASSED
+maximizeWindow,Chrome 65.0.3325.146,,2018-03-12 12:47:08,2018-03-12 12:47:09,1.227s,PASSED
+navigateToUrl,Chrome 65.0.3325.146,,2018-03-12 12:47:09,2018-03-12 12:47:13,3.770s,PASSED
+"Statement - log.logFailed(""Failed"")",Chrome 65.0.3325.146,,2018-03-12 12:47:13,2018-03-12 12:47:13,0.002s,FAILED
+setText,Chrome 65.0.3325.146,,2018-03-12 12:47:13,2018-03-12 12:47:18,5.042s,FAILED
+,,,,,,
+Test Cases/BudgetPlan,Chrome 65.0.3325.146,,2018-03-12 12:47:18,2018-03-12 12:47:31,13.163s,FAILED
+openBrowser,Chrome 65.0.3325.146,,2018-03-12 12:47:18,2018-03-12 12:47:22,3.940s,PASSED
+maximizeWindow,Chrome 65.0.3325.146,,2018-03-12 12:47:22,2018-03-12 12:47:24,1.179s,PASSED
+navigateToUrl,Chrome 65.0.3325.146,,2018-03-12 12:47:24,2018-03-12 12:47:27,3.141s,PASSED
+setText,Chrome 65.0.3325.146,,2018-03-12 12:47:27,2018-03-12 12:47:31,4.198s,FAILED

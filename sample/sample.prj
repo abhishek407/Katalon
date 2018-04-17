@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+   <description></description>
+   <name>sample</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>qTest</productName>
+      <type>PROJECT</type>
+   </integratedEntity>
+   <UUID>fe200b53-64df-42e4-bffc-598f039936f8</UUID>
+   <pageLoadTimeout>0</pageLoadTimeout>
+   <recentExpandedTreeEntityIds>Test Cases</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Test Cases/Common Test Cases</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Test Suites</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Data Files</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Reports</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Reports/CAPPM_Adapter_Regression_POC</recentExpandedTreeEntityIds>
+   <recentOpenedTreeEntityIds>Test Suites/CAPPM_Adapter_Regression_POC</recentOpenedTreeEntityIds>
+   <recentOpenedTreeEntityIds>Reports/CAPPM_Adapter_Regression_POC/20180123_190327</recentOpenedTreeEntityIds>
+</Project>

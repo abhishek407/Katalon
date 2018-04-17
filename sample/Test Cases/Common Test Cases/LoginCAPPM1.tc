@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login to CA PPM :
+
+Steps:
+1.Enter the URL
+2.Give Username and Password
+
+Expected Result:
+CA PPM Home Page is displayed</description>
+   <name>LoginCAPPM1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3ba0ff46-f3fa-4a32-badb-054c3533fcb4</testCaseGuid>
+</TestCaseEntity>

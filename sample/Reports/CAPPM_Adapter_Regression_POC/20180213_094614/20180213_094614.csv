@@ -1,0 +1,87 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+CAPPM_Adapter_Regression_POC,,,2018-02-13 09:46:24,2018-02-13 09:47:29,1m - 5.081s,FAILED
+,,,,,,
+Test Cases/Main Test Cases/LoginCAPPM,,Login to CA PPM :\n\nSteps:\n1.Enter the URL\n2.Give Username and Password\n\nExpected Result:\nCA PPM Home Page is displayed,2018-02-13 09:46:25,2018-02-13 09:47:11,45.509s,FAILED
+callTestCase,,,2018-02-13 09:46:27,2018-02-13 09:46:29,2.288s,PASSED
+callTestCase,,,2018-02-13 09:46:29,2018-02-13 09:46:34,5.344s,PASSED
+newpackage.newkeyword.keywordName,,,2018-02-13 09:46:34,2018-02-13 09:46:36,1.613s,PASSED
+Statement - extent1 = extent,,,2018-02-13 09:46:36,2018-02-13 09:46:36,0.002s,PASSED
+Statement - extentTest1 = test,,,2018-02-13 09:46:36,2018-02-13 09:46:36,0.002s,PASSED
+"Statement - extentTest1 = extent1.startTest(""LoginPage TestCase"")",,,2018-02-13 09:46:36,2018-02-13 09:46:36,0.006s,PASSED
+openBrowser,,,2018-02-13 09:46:36,2018-02-13 09:46:53,16.517s,PASSED
+maximizeWindow,,,2018-02-13 09:46:53,2018-02-13 09:46:59,6.050s,PASSED
+navigateToUrl,,,2018-02-13 09:46:59,2018-02-13 09:47:07,8.062s,FAILED
+"Statement - extentTest1.log(INFO, ""Browser Launched"")",,,2018-02-13 09:47:07,2018-02-13 09:47:07,0.037s,PASSED
+"Statement - username = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(CAPPM/Page_CA PPM  Login/input_userName), 3)",,,2018-02-13 09:47:07,2018-02-13 09:47:11,4.119s,PASSED
+,,,,,,
+Test Cases/Main Test Cases/ValidationFields,,,2018-02-13 09:47:11,2018-02-13 09:47:16,5.257s,ERROR
+Statement - extent1 = extent,,,2018-02-13 09:47:12,2018-02-13 09:47:12,0.002s,PASSED
+Statement - extentTest1 = test,,,2018-02-13 09:47:12,2018-02-13 09:47:12,0.000s,PASSED
+"Statement - extentTest1 = extent1.startTest(""Validation Fields TestCase"")",,,2018-02-13 09:47:12,2018-02-13 09:47:12,0.001s,PASSED
+Statement - log = new com.kms.katalon.core.logging.KeywordLogger(),,,2018-02-13 09:47:12,2018-02-13 09:47:12,0.001s,PASSED
+Statement - myData = com.kms.katalon.core.testdata.TestDataFactory.findTestData(FieldsValidation),,,2018-02-13 09:47:12,2018-02-13 09:47:12,0.194s,PASSED
+Statement - println(myData.getAllData()),,,2018-02-13 09:47:12,2018-02-13 09:47:12,0.001s,PASSED
+Statement - row = myData.getRowNumbers(),,,2018-02-13 09:47:12,2018-02-13 09:47:12,0.001s,PASSED
+Statement - list_first_column = new java.util.ArrayList(),,,2018-02-13 09:47:12,2018-02-13 09:47:12,0.000s,PASSED
+Statement - list_second_column = new java.util.ArrayList(),,,2018-02-13 09:47:12,2018-02-13 09:47:12,0.000s,PASSED
+Statement - excel_field_names = new java.util.LinkedHashMap(),,,2018-02-13 09:47:12,2018-02-13 09:47:12,0.001s,PASSED
+"Statement - For ([i = 1, i <= row, (i++)])",,,2018-02-13 09:47:12,2018-02-13 09:47:12,0.040s,PASSED
+Statement - println(list_first_column),,,2018-02-13 09:47:12,2018-02-13 09:47:12,0.000s,PASSED
+Statement - println(list_second_column),,,2018-02-13 09:47:12,2018-02-13 09:47:12,0.001s,PASSED
+Statement - println(excel_field_names),,,2018-02-13 09:47:12,2018-02-13 09:47:12,0.001s,PASSED
+"Statement - home_page = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(CAPPM/Page_CA PPM  Job Type CA PPM Adapte/span_Home), 3)",,,2018-02-13 09:47:12,2018-02-13 09:47:16,4.042s,PASSED
+,,,,,,
+Test Cases/Main Test Cases/AddBussinessRule,,,2018-02-13 09:47:16,2018-02-13 09:47:21,4.587s,ERROR
+Statement - extent1 = extent,,,2018-02-13 09:47:17,2018-02-13 09:47:17,0.001s,PASSED
+Statement - extentTest1 = test,,,2018-02-13 09:47:17,2018-02-13 09:47:17,0.000s,PASSED
+"Statement - extentTest1 = extent1.startTest(""Add BussinessRules TestCase"")",,,2018-02-13 09:47:17,2018-02-13 09:47:17,0.001s,PASSED
+Statement - log = new com.kms.katalon.core.logging.KeywordLogger(),,,2018-02-13 09:47:17,2018-02-13 09:47:17,0.000s,PASSED
+"Statement - FileProperties_rule = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_CA PPM  Overview General/FileProperties), 3)",,,2018-02-13 09:47:17,2018-02-13 09:47:21,4.080s,PASSED
+,,,,,,
+Test Cases/Main Test Cases/RunTransactionAdaptorJob,,"Financial Transaction Adaptor Job :\n\nSteps:\na. Go to Home-> Personal -> Jobs\nb. Search for the \u2018CA PPM Adapter Client\u2019 Job\nc. Open it and enter the parameter value as \""Transaction\"" submit it to run it immediately\n \nExpected Result :\nJob is executed successfully\n",2018-02-13 09:47:21,2018-02-13 09:47:26,5.446s,PASSED
+Statement - extent1 = extent,,,2018-02-13 09:47:21,2018-02-13 09:47:21,0.000s,PASSED
+Statement - extentTest1 = test,,,2018-02-13 09:47:21,2018-02-13 09:47:21,0.001s,PASSED
+"Statement - extentTest1 = extent1.startTest(""RunTransactionAdaptor Job TestCase"")",,,2018-02-13 09:47:21,2018-02-13 09:47:21,0.001s,PASSED
+Statement - Try,,,2018-02-13 09:47:21,2018-02-13 09:47:25,4.028s,PASSED
+Statement - Catch (Exception e),,,2018-02-13 09:47:25,2018-02-13 09:47:26,0.599s,PASSED
+Statement - Finally,,,2018-02-13 09:47:26,2018-02-13 09:47:26,0.355s,PASSED
+,,,,,,
+Test Cases/Main Test Cases/ValidationTestCases,,Transaction Adaptor Portlet :\n \nAll the validation error messages are displayed\n \nSteps:\n1.From Home -> Custom Objects -> Transaction Adaptor -> All the Validation error messages are displayed.\n \nExpected Result:\nValidation error messages are displayed.\n\n,2018-02-13 09:47:26,2018-02-13 09:47:27,0.806s,ERROR
+Statement - extent1 = extent,,,2018-02-13 09:47:27,2018-02-13 09:47:27,0.001s,PASSED
+Statement - extentTest1 = test,,,2018-02-13 09:47:27,2018-02-13 09:47:27,0.001s,PASSED
+"Statement - extentTest1 = extent1.startTest(""Validation ErrorMessages TestCase"")",,,2018-02-13 09:47:27,2018-02-13 09:47:27,0.000s,PASSED
+Statement - log = new com.kms.katalon.core.logging.KeywordLogger(),,,2018-02-13 09:47:27,2018-02-13 09:47:27,0.001s,PASSED
+Statement - myData = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Test_Case_Validation),,,2018-02-13 09:47:27,2018-02-13 09:47:27,0.049s,PASSED
+"Statement - myData.changeSheet(""Error_Messages"")",,,2018-02-13 09:47:27,2018-02-13 09:47:27,0.001s,PASSED
+Statement - println(myData.getAllData()),,,2018-02-13 09:47:27,2018-02-13 09:47:27,0.001s,PASSED
+Statement - row = myData.getRowNumbers(),,,2018-02-13 09:47:27,2018-02-13 09:47:27,0.001s,PASSED
+Statement - list = new java.util.ArrayList(),,,2018-02-13 09:47:27,2018-02-13 09:47:27,0.000s,PASSED
+"Statement - For ([i = 1, i <= row, (i++)])",,,2018-02-13 09:47:27,2018-02-13 09:47:27,0.010s,PASSED
+Statement - println(list),,,2018-02-13 09:47:27,2018-02-13 09:47:27,0.000s,PASSED
+"Statement - myData.changeSheet(""Error_Message_Validation"")",,,2018-02-13 09:47:27,2018-02-13 09:47:27,0.000s,PASSED
+Statement - println(myData.getAllData()),,,2018-02-13 09:47:27,2018-02-13 09:47:27,0.003s,PASSED
+Statement - row1 = myData.getRowNumbers(),,,2018-02-13 09:47:27,2018-02-13 09:47:27,0.000s,PASSED
+Statement - list1 = new java.util.ArrayList(),,,2018-02-13 09:47:27,2018-02-13 09:47:27,0.001s,PASSED
+Statement - list2 = new java.util.ArrayList(),,,2018-02-13 09:47:27,2018-02-13 09:47:27,0.000s,PASSED
+"Statement - For ([i = 1, i <= row1, (i++)])",,,2018-02-13 09:47:27,2018-02-13 09:47:27,0.018s,PASSED
+Statement - println(list1),,,2018-02-13 09:47:27,2018-02-13 09:47:27,0.001s,PASSED
+Statement - println(list2),,,2018-02-13 09:47:27,2018-02-13 09:47:27,0.001s,PASSED
+Statement - myData1 = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Input_File),,,2018-02-13 09:47:27,2018-02-13 09:47:27,0.064s,PASSED
+Statement - input_rows = myData1.getRowNumbers(),,,2018-02-13 09:47:27,2018-02-13 09:47:27,0.000s,PASSED
+Statement - input_coloumns = myData1.getColumnNumbers(),,,2018-02-13 09:47:27,2018-02-13 09:47:27,0.000s,PASSED
+"Statement - home_page = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(CAPPM/Page_CA PPM  Job Type CA PPM Adapte/span_Home), 3)",,,2018-02-13 09:47:27,2018-02-13 09:47:27,0.007s,PASSED
+,,,,,,
+Test Cases/Main Test Cases/RunningJobs,,Financial jobs :\n\nSteps:\nExecute below jobs in sequence: \n1. Post Transactions to Financial \n2. Post to WIP  \n3. Import Financial Actuals\n\nExpected Result :\nAll the Jobs should be completed successfully,2018-02-13 09:47:27,2018-02-13 09:47:28,0.459s,ERROR
+Statement - extent1 = extent,,,2018-02-13 09:47:28,2018-02-13 09:47:28,0.001s,PASSED
+Statement - extentTest1 = test,,,2018-02-13 09:47:28,2018-02-13 09:47:28,0.001s,PASSED
+Statement - If (RunJob),,,2018-02-13 09:47:28,2018-02-13 09:47:28,0.006s,PASSED
+,,,,,,
+Test Cases/Main Test Cases/RunProjectsValidation,,"Cost Type : \nTask is configured with a cost type. If no cost type is selected, project cost type should be considered. \n \nSteps: \n1.Go to Home -> Projects -> Tasks -> Check the cost type of the Task\n2.In Projects -> Financial -> Check the cost type of the project\n\nExpected Result:\nChecks the Cost Type of the Project and Task\n\n---------------------------------------------------------------\n\nInput Type :\nBelow Value should be defaulted by the adaptor\nInput Type Code - Billable\n \nSteps:\n1.Go to Home-> Project -> Project Properties page -> check the value in Input type code\n \nExpected Result:\nIf value is blank it should be updated to billable\n",2018-02-13 09:47:28,2018-02-13 09:47:28,0.482s,ERROR
+Statement - extent1 = extent,,,2018-02-13 09:47:28,2018-02-13 09:47:28,0.001s,PASSED
+Statement - extentTest1 = test,,,2018-02-13 09:47:28,2018-02-13 09:47:28,0.001s,PASSED
+Statement - If (RunJob),,,2018-02-13 09:47:28,2018-02-13 09:47:28,0.007s,PASSED
+,,,,,,
+Test Cases/Main Test Cases/ValidatingTransactions,,Transactions Portlet :\n\nWe check if the appropriate data is displayed in this portlet. \n\nHome -> Financial Management -> Transactions\n\nStep1: Data in the Cost Type column should be checked\nStep 2: Data in the Input type code is checked\nStep 3: Data in Amount attribute is checked\n\nExpected Result:\nData is validated against the input file. \n,2018-02-13 09:47:28,2018-02-13 09:47:29,0.573s,ERROR
+Statement - extent1 = extent,,,2018-02-13 09:47:29,2018-02-13 09:47:29,0.000s,PASSED
+Statement - extentTest1 = test,,,2018-02-13 09:47:29,2018-02-13 09:47:29,0.001s,PASSED
+Statement - If (RunJob),,,2018-02-13 09:47:29,2018-02-13 09:47:29,0.009s,PASSED

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+   <description></description>
+   <name>katalonDemo</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>qTest</productName>
+      <type>PROJECT</type>
+   </integratedEntity>
+   <UUID>b8a9f18b-dfd0-4b4a-8048-105ce234124e</UUID>
+   <pageLoadTimeout>0</pageLoadTimeout>
+   <recentExpandedTreeEntityIds>Test Cases</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Object Repository</recentExpandedTreeEntityIds>
+   <recentOpenedTreeEntityIds>Test Cases/New Test Case</recentOpenedTreeEntityIds>
+   <recentOpenedTreeEntityIds>Test Cases/New Test Case (1)</recentOpenedTreeEntityIds>
+</Project>

@@ -1,0 +1,88 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+CAPPM_Adapter_Regression_POC,Chrome 64.0.3282.167,,2018-02-14 15:50:40,2018-02-14 15:51:44,1m - 3.473s,ERROR
+,,,,,,
+Test Cases/Main Test Cases/LoginCAPPM,Chrome 64.0.3282.167,Login to CA PPM :\n\nSteps:\n1.Enter the URL\n2.Give Username and Password\n\nExpected Result:\nCA PPM Home Page is displayed,2018-02-14 15:50:41,2018-02-14 15:51:22,41.172s,ERROR
+callTestCase,Chrome 64.0.3282.167,,2018-02-14 15:50:42,2018-02-14 15:50:44,1.917s,PASSED
+callTestCase,Chrome 64.0.3282.167,,2018-02-14 15:50:44,2018-02-14 15:50:46,1.822s,PASSED
+newpackage.newkeyword.keywordName,Chrome 64.0.3282.167,,2018-02-14 15:50:46,2018-02-14 15:50:47,0.370s,PASSED
+Statement - extent1 = extent,Chrome 64.0.3282.167,,2018-02-14 15:50:47,2018-02-14 15:50:47,0.001s,PASSED
+Statement - extentTest1 = test,Chrome 64.0.3282.167,,2018-02-14 15:50:47,2018-02-14 15:50:47,0.000s,PASSED
+"Statement - extentTest1 = extent1.startTest(""LoginPage TestCase"")",Chrome 64.0.3282.167,,2018-02-14 15:50:47,2018-02-14 15:50:47,0.003s,PASSED
+openBrowser,Chrome 64.0.3282.167,,2018-02-14 15:50:47,2018-02-14 15:50:53,6.604s,PASSED
+maximizeWindow,Chrome 64.0.3282.167,,2018-02-14 15:50:53,2018-02-14 15:50:54,1.195s,PASSED
+navigateToUrl,Chrome 64.0.3282.167,,2018-02-14 15:50:54,2018-02-14 15:51:16,21.558s,PASSED
+delay,Chrome 64.0.3282.167,,2018-02-14 15:51:16,2018-02-14 15:51:19,3.016s,PASSED
+"Statement - extentTest1.log(INFO, ""Browser Launched"")",Chrome 64.0.3282.167,,2018-02-14 15:51:19,2018-02-14 15:51:19,0.021s,PASSED
+"Statement - username = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(CAPPM/Page_CA PPM  Login/input_userName), 3)",Chrome 64.0.3282.167,,2018-02-14 15:51:19,2018-02-14 15:51:22,3.146s,PASSED
+,,,,,,
+Test Cases/Main Test Cases/ValidationFields,Chrome 64.0.3282.167,,2018-02-14 15:51:22,2018-02-14 15:51:29,6.662s,ERROR
+Statement - extent1 = extent,Chrome 64.0.3282.167,,2018-02-14 15:51:24,2018-02-14 15:51:24,0.000s,PASSED
+Statement - extentTest1 = test,Chrome 64.0.3282.167,,2018-02-14 15:51:24,2018-02-14 15:51:24,0.002s,PASSED
+"Statement - extentTest1 = extent1.startTest(""Validation Fields TestCase"")",Chrome 64.0.3282.167,,2018-02-14 15:51:24,2018-02-14 15:51:24,0.000s,PASSED
+Statement - log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 64.0.3282.167,,2018-02-14 15:51:24,2018-02-14 15:51:24,0.000s,PASSED
+Statement - myData = com.kms.katalon.core.testdata.TestDataFactory.findTestData(FieldsValidation),Chrome 64.0.3282.167,,2018-02-14 15:51:24,2018-02-14 15:51:25,0.362s,PASSED
+Statement - println(myData.getAllData()),Chrome 64.0.3282.167,,2018-02-14 15:51:25,2018-02-14 15:51:25,0.002s,PASSED
+Statement - row = myData.getRowNumbers(),Chrome 64.0.3282.167,,2018-02-14 15:51:25,2018-02-14 15:51:25,0.001s,PASSED
+Statement - list_first_column = new java.util.ArrayList(),Chrome 64.0.3282.167,,2018-02-14 15:51:25,2018-02-14 15:51:25,0.001s,PASSED
+Statement - list_second_column = new java.util.ArrayList(),Chrome 64.0.3282.167,,2018-02-14 15:51:25,2018-02-14 15:51:25,0.001s,PASSED
+Statement - excel_field_names = new java.util.LinkedHashMap(),Chrome 64.0.3282.167,,2018-02-14 15:51:25,2018-02-14 15:51:25,0.001s,PASSED
+"Statement - For ([i = 1, i <= row, (i++)])",Chrome 64.0.3282.167,,2018-02-14 15:51:25,2018-02-14 15:51:25,0.060s,PASSED
+Statement - println(list_first_column),Chrome 64.0.3282.167,,2018-02-14 15:51:25,2018-02-14 15:51:25,0.000s,PASSED
+Statement - println(list_second_column),Chrome 64.0.3282.167,,2018-02-14 15:51:25,2018-02-14 15:51:25,0.000s,PASSED
+Statement - println(excel_field_names),Chrome 64.0.3282.167,,2018-02-14 15:51:25,2018-02-14 15:51:25,0.000s,PASSED
+"Statement - home_page = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(CAPPM/Page_CA PPM  Job Type CA PPM Adapte/span_Home), 3)",Chrome 64.0.3282.167,,2018-02-14 15:51:25,2018-02-14 15:51:29,4.038s,PASSED
+,,,,,,
+Test Cases/Main Test Cases/AddBussinessRule,Chrome 64.0.3282.167,,2018-02-14 15:51:29,2018-02-14 15:51:34,4.726s,ERROR
+Statement - extent1 = extent,Chrome 64.0.3282.167,,2018-02-14 15:51:30,2018-02-14 15:51:30,0.000s,PASSED
+Statement - extentTest1 = test,Chrome 64.0.3282.167,,2018-02-14 15:51:30,2018-02-14 15:51:30,0.000s,PASSED
+"Statement - extentTest1 = extent1.startTest(""Add BussinessRules TestCase"")",Chrome 64.0.3282.167,,2018-02-14 15:51:30,2018-02-14 15:51:30,0.000s,PASSED
+Statement - log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 64.0.3282.167,,2018-02-14 15:51:30,2018-02-14 15:51:30,0.000s,PASSED
+"Statement - FileProperties_rule = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_CA PPM  Overview General/FileProperties), 3)",Chrome 64.0.3282.167,,2018-02-14 15:51:30,2018-02-14 15:51:34,4.024s,PASSED
+,,,,,,
+Test Cases/Main Test Cases/RunTransactionAdaptorJob,Chrome 64.0.3282.167,"Financial Transaction Adaptor Job :\n\nSteps:\na. Go to Home-> Personal -> Jobs\nb. Search for the \u2018CA PPM Adapter Client\u2019 Job\nc. Open it and enter the parameter value as \""Transaction\"" submit it to run it immediately\n \nExpected Result :\nJob is executed successfully\n",2018-02-14 15:51:34,2018-02-14 15:51:40,5.907s,PASSED
+Statement - extent1 = extent,Chrome 64.0.3282.167,,2018-02-14 15:51:34,2018-02-14 15:51:34,0.001s,PASSED
+Statement - extentTest1 = test,Chrome 64.0.3282.167,,2018-02-14 15:51:34,2018-02-14 15:51:35,0.001s,PASSED
+"Statement - extentTest1 = extent1.startTest(""RunTransactionAdaptor Job TestCase"")",Chrome 64.0.3282.167,,2018-02-14 15:51:35,2018-02-14 15:51:35,0.000s,PASSED
+Statement - Try,Chrome 64.0.3282.167,,2018-02-14 15:51:35,2018-02-14 15:51:39,4.037s,PASSED
+Statement - Catch (Exception e),Chrome 64.0.3282.167,,2018-02-14 15:51:39,2018-02-14 15:51:39,0.568s,PASSED
+Statement - Finally,Chrome 64.0.3282.167,,2018-02-14 15:51:39,2018-02-14 15:51:40,0.493s,PASSED
+,,,,,,
+Test Cases/Main Test Cases/ValidationTestCases,Chrome 64.0.3282.167,Transaction Adaptor Portlet :\n \nAll the validation error messages are displayed\n \nSteps:\n1.From Home -> Custom Objects -> Transaction Adaptor -> All the Validation error messages are displayed.\n \nExpected Result:\nValidation error messages are displayed.\n\n,2018-02-14 15:51:40,2018-02-14 15:51:41,1.108s,ERROR
+Statement - extent1 = extent,Chrome 64.0.3282.167,,2018-02-14 15:51:41,2018-02-14 15:51:41,0.000s,PASSED
+Statement - extentTest1 = test,Chrome 64.0.3282.167,,2018-02-14 15:51:41,2018-02-14 15:51:41,0.000s,PASSED
+"Statement - extentTest1 = extent1.startTest(""Validation ErrorMessages TestCase"")",Chrome 64.0.3282.167,,2018-02-14 15:51:41,2018-02-14 15:51:41,0.002s,PASSED
+Statement - log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 64.0.3282.167,,2018-02-14 15:51:41,2018-02-14 15:51:41,0.002s,PASSED
+Statement - myData = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Test_Case_Validation),Chrome 64.0.3282.167,,2018-02-14 15:51:41,2018-02-14 15:51:41,0.082s,PASSED
+"Statement - myData.changeSheet(""Error_Messages"")",Chrome 64.0.3282.167,,2018-02-14 15:51:41,2018-02-14 15:51:41,0.000s,PASSED
+Statement - println(myData.getAllData()),Chrome 64.0.3282.167,,2018-02-14 15:51:41,2018-02-14 15:51:41,0.001s,PASSED
+Statement - row = myData.getRowNumbers(),Chrome 64.0.3282.167,,2018-02-14 15:51:41,2018-02-14 15:51:41,0.001s,PASSED
+Statement - list = new java.util.ArrayList(),Chrome 64.0.3282.167,,2018-02-14 15:51:41,2018-02-14 15:51:41,0.000s,PASSED
+"Statement - For ([i = 1, i <= row, (i++)])",Chrome 64.0.3282.167,,2018-02-14 15:51:41,2018-02-14 15:51:41,0.015s,PASSED
+Statement - println(list),Chrome 64.0.3282.167,,2018-02-14 15:51:41,2018-02-14 15:51:41,0.001s,PASSED
+"Statement - myData.changeSheet(""Error_Message_Validation"")",Chrome 64.0.3282.167,,2018-02-14 15:51:41,2018-02-14 15:51:41,0.000s,PASSED
+Statement - println(myData.getAllData()),Chrome 64.0.3282.167,,2018-02-14 15:51:41,2018-02-14 15:51:41,0.003s,PASSED
+Statement - row1 = myData.getRowNumbers(),Chrome 64.0.3282.167,,2018-02-14 15:51:41,2018-02-14 15:51:41,0.001s,PASSED
+Statement - list1 = new java.util.ArrayList(),Chrome 64.0.3282.167,,2018-02-14 15:51:41,2018-02-14 15:51:41,0.000s,PASSED
+Statement - list2 = new java.util.ArrayList(),Chrome 64.0.3282.167,,2018-02-14 15:51:41,2018-02-14 15:51:41,0.001s,PASSED
+"Statement - For ([i = 1, i <= row1, (i++)])",Chrome 64.0.3282.167,,2018-02-14 15:51:41,2018-02-14 15:51:41,0.016s,PASSED
+Statement - println(list1),Chrome 64.0.3282.167,,2018-02-14 15:51:41,2018-02-14 15:51:41,0.000s,PASSED
+Statement - println(list2),Chrome 64.0.3282.167,,2018-02-14 15:51:41,2018-02-14 15:51:41,0.004s,PASSED
+Statement - myData1 = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Input_File),Chrome 64.0.3282.167,,2018-02-14 15:51:41,2018-02-14 15:51:41,0.010s,PASSED
+Statement - input_rows = myData1.getRowNumbers(),Chrome 64.0.3282.167,,2018-02-14 15:51:41,2018-02-14 15:51:41,0.000s,PASSED
+Statement - input_coloumns = myData1.getColumnNumbers(),Chrome 64.0.3282.167,,2018-02-14 15:51:41,2018-02-14 15:51:41,0.001s,PASSED
+"Statement - home_page = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(CAPPM/Page_CA PPM  Job Type CA PPM Adapte/span_Home), 3)",Chrome 64.0.3282.167,,2018-02-14 15:51:41,2018-02-14 15:51:41,0.005s,PASSED
+,,,,,,
+Test Cases/Main Test Cases/RunningJobs,Chrome 64.0.3282.167,Financial jobs :\n\nSteps:\nExecute below jobs in sequence: \n1. Post Transactions to Financial \n2. Post to WIP  \n3. Import Financial Actuals\n\nExpected Result :\nAll the Jobs should be completed successfully,2018-02-14 15:51:41,2018-02-14 15:51:42,0.787s,ERROR
+Statement - extent1 = extent,Chrome 64.0.3282.167,,2018-02-14 15:51:42,2018-02-14 15:51:42,0.000s,PASSED
+Statement - extentTest1 = test,Chrome 64.0.3282.167,,2018-02-14 15:51:42,2018-02-14 15:51:42,0.000s,PASSED
+Statement - If (RunJob),Chrome 64.0.3282.167,,2018-02-14 15:51:42,2018-02-14 15:51:42,0.008s,PASSED
+,,,,,,
+Test Cases/Main Test Cases/RunProjectsValidation,Chrome 64.0.3282.167,"Cost Type : \nTask is configured with a cost type. If no cost type is selected, project cost type should be considered. \n \nSteps: \n1.Go to Home -> Projects -> Tasks -> Check the cost type of the Task\n2.In Projects -> Financial -> Check the cost type of the project\n\nExpected Result:\nChecks the Cost Type of the Project and Task\n\n---------------------------------------------------------------\n\nInput Type :\nBelow Value should be defaulted by the adaptor\nInput Type Code - Billable\n \nSteps:\n1.Go to Home-> Project -> Project Properties page -> check the value in Input type code\n \nExpected Result:\nIf value is blank it should be updated to billable\n",2018-02-14 15:51:42,2018-02-14 15:51:43,0.968s,ERROR
+Statement - extent1 = extent,Chrome 64.0.3282.167,,2018-02-14 15:51:43,2018-02-14 15:51:43,0.002s,PASSED
+Statement - extentTest1 = test,Chrome 64.0.3282.167,,2018-02-14 15:51:43,2018-02-14 15:51:43,0.001s,PASSED
+Statement - If (RunJob),Chrome 64.0.3282.167,,2018-02-14 15:51:43,2018-02-14 15:51:43,0.033s,PASSED
+,,,,,,
+Test Cases/Main Test Cases/ValidatingTransactions,Chrome 64.0.3282.167,Transactions Portlet :\n\nWe check if the appropriate data is displayed in this portlet. \n\nHome -> Financial Management -> Transactions\n\nStep1: Data in the Cost Type column should be checked\nStep 2: Data in the Input type code is checked\nStep 3: Data in Amount attribute is checked\n\nExpected Result:\nData is validated against the input file. \n,2018-02-14 15:51:43,2018-02-14 15:51:44,1.121s,ERROR
+Statement - extent1 = extent,Chrome 64.0.3282.167,,2018-02-14 15:51:44,2018-02-14 15:51:44,0.001s,PASSED
+Statement - extentTest1 = test,Chrome 64.0.3282.167,,2018-02-14 15:51:44,2018-02-14 15:51:44,0.000s,PASSED
+Statement - If (RunJob),Chrome 64.0.3282.167,,2018-02-14 15:51:44,2018-02-14 15:51:44,0.021s,PASSED

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Cost Type : 
+Task is configured with a cost type. If no cost type is selected, project cost type should be considered. 
+ 
+Steps: 
+1.Go to Home -> Projects -> Tasks -> Check the cost type of the Task
+2.In Projects -> Financial -> Check the cost type of the project
+
+Expected Result:
+Checks the Cost Type of the Project and Task
+
+---------------------------------------------------------------
+
+Input Type :
+Below Value should be defaulted by the adaptor
+Input Type Code - Billable
+ 
+Steps:
+1.Go to Home-> Project -> Project Properties page -> check the value in Input type code
+ 
+Expected Result:
+If value is blank it should be updated to billable
+</description>
+   <name>RunProjectsValidation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>73660adf-d6b4-47fa-ad75-b5eab9fd36dc</testCaseGuid>
+</TestCaseEntity>

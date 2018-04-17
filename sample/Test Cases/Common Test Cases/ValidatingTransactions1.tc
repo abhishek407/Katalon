@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Transactions Portlet :
+
+We check if the appropriate data is displayed in this portlet. 
+
+Home -> Financial Management -> Transactions
+
+Step1: Data in the Cost Type column should be checked
+Step 2: Data in the Input type code is checked
+Step 3: Data in Amount attribute is checked
+
+Expected Result:
+Data is validated against the input file. 
+</description>
+   <name>ValidatingTransactions1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5b9b65c4-b83d-4433-a631-076eda575345</testCaseGuid>
+</TestCaseEntity>

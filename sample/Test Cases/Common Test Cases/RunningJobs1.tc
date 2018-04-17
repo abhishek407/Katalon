@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Financial jobs :
+
+Steps:
+Execute below jobs in sequence: 
+1. Post Transactions to Financial 
+2. Post to WIP  
+3. Import Financial Actuals
+
+Expected Result :
+All the Jobs should be completed successfully</description>
+   <name>RunningJobs1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>64b67feb-c6f3-4bb6-a171-8116b4d773cb</testCaseGuid>
+</TestCaseEntity>

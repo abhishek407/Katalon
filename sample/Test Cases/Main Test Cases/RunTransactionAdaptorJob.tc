@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Financial Transaction Adaptor Job :
+
+Steps:
+a. Go to Home-> Personal -> Jobs
+b. Search for the ‘CA PPM Adapter Client’ Job
+c. Open it and enter the parameter value as &quot;Transaction&quot; submit it to run it immediately
+ 
+Expected Result :
+Job is executed successfully
+</description>
+   <name>RunTransactionAdaptorJob</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a53f87c1-3fb0-4d3a-85c9-49851b16a8a8</testCaseGuid>
+</TestCaseEntity>
